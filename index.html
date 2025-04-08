@@ -4,25 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Email Subscribe</title>
 </head>
-<body class="bg-[rgb(63_63_70)]">
-    <div class=" bg-[rgb(39_39_42)] w-8/12 h-screen mx-auto mt-6 rounded-lg md:flex md:w-6/12 md:h-3/4">
-         <img class="w-[400px] h-[340px] rounded-xl mx-auto pt-2 md:w-40 md:ml-0"
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/440/original/diet.jpg?1743976911"
-          alt=""/>
-          <div class="mt-6 text-center md:mr-12">
-        <div>
-        <h1 class="text-white text-2xl">Get diet fitness tips in your inbox</h1>
-       </div>
-       <div class="p-3">
-        <p class="text-white text-sm p-3">Eat better and exercise better. Sign up for the </br>Diet&Fitness newsletter</p>
-        </div>
-        <div class="p-3">
-        <input class="bg-[rgb(39_39_42)] border w-10/12 text-center p-2 text-sm"type="email" placeholder="Enter your Email"/> </br>
-        </div>
-            <input class="bg-green-600 border w-9/12 rounded-md text-center p-2" type="Submit" value="Subcribe"  />
+<body>
+    <div class="flex item-center justify bg-zinc-700 h-screen">
+        <div class="bg-zinc-800 mx-auto mt-6 rounded-2xl w-9/12 md:h-70 md:my-auto md:w-6/12">
+            <div class="flex flex-col md:flex-row">
+                <img 
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/440/original/diet.jpg?1743976911"
+                alt=""
+                class=" object-fit h-80 rounded-2xl mt-2 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200 md:w-30 md:h-60 md:ml-2 md:mb-8"
+                />
+                <div class="text-center p-5 text-white md:mt-10">
+                    <h1 class="font-serif text-xl"> Get diet and fitness tips in your inbox</h1>
+                    <p class="text-xs mt-4">
+                       Eat better and exercise better. Sign up for the </br> Diet&Fitness newsletter 
+                    </p>
+                    <div class=" flex flex-col md:flex-row">
+                        <input 
+                        type="text"
+                        placeholder="Enter your email address"
+                        class="text-center bg-zinc-800 border text-xs p-3 w-11/12 mx-auto mt-6"
+                        />
+                        <button class="bg-lime-500 rounded-md p-2 w-3/4 mt-4 mx-auto hover:text-black md:ml-6 md:w-20">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</body>
+</html>
 </body>
 </html>
